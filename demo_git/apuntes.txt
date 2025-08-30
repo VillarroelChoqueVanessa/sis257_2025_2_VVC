@@ -1,1 +1,55 @@
 Apuntes GIT
+ 92  mkdir sis257_2025_2_VVC
+   93  cd sis257_2025_2/
+   94  cd sis257_2025_2_VVC/
+   95  pwd
+   96  touch README.md
+   97  ls
+   98  ls -la
+   99  git init~
+  100  git init
+  101  git status
+  102  git add .
+  103  git status
+  104  git commit -m 'Creación repositorio SIS257 con archivo README'
+  105  git status
+  106  cat README.md
+  107  git checkout -b demo_git
+  108  ls
+  109  echo ' 2/2025' >> README.md
+  110  cat README.md
+  111  nano README.md
+  112  nano README.md
+  113  cat README.md
+  114  mkdir demo_git
+  115  ls
+  116  ls -la
+  117  echo 'Apuntes GIT' > demo_git/apuntes.txt
+  118  cat demo_git/apuntes.txt
+  119  git status
+  120  git add .
+  121  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+  122  ls
+  123  cat README.md
+  124  $ git
+  125  git switch main
+  126  cat README.md
+  127  git switch demo_git
+  128  git switch main
+  129  git branch -M main
+  130  git remote add origin https://github.com/VillarroelChoqueVanessa/sis257_2025_2_VVC.git
+  131  git push -u origin main
+  132  git merge demo_git
+  133  git push
+  134  git merge demo_git
+  135  history
+  136  git remote add origin https://github.com/VillarroelChoqueVanessa/sis257_2025_2_VVC.git
+  137  git remote add origin https://github.com/VillarroelChoqueVanessa/sis257_2025_2_VVC.git
+  138  git push -u origin main
+  139  git push -u origin main
+  140  git merge demo_git
+  141  git push
+  142  git push
+  143  git merge demo_git
+  144  historia
+  145  history
