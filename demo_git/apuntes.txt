@@ -1,9 +1,5 @@
 Apuntes GIT
-<<<<<<< HEAD
- 92  mkdir sis257_2025_2_VVC
-=======
    92  mkdir sis257_2025_2_VVC
->>>>>>> 72a39ebe1c3b0a4d6d2491defb3337111e600bf1
    93  cd sis257_2025_2/
    94  cd sis257_2025_2_VVC/
    95  pwd
@@ -56,8 +52,7 @@ Apuntes GIT
   142  git push
   143  git merge demo_git
   144  historia
-<<<<<<< HEAD
-  145  history
-=======
-  145  history
->>>>>>> 72a39ebe1c3b0a4d6d2491defb3337111e600bf1
+
+git add .
+git commit -m "Subiendo mi carpeta completa"
+git push -u origin main
